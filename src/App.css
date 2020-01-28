@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.jumbo {
+  background-image: url(./Images/0.jpg);
+  background-size: cover;
+  justify-content: center;
+
+  height: 500px;
+  position: relative;
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100px;
+  justify-content: center;
+}
+
+.cardbody {
+  background-color: rgba(138, 167, 220, 0.6);
+  color: black;
+}
+.cards {
+  width: 25em;
+  min-height: 13em;
+  margin: 5px;
+  border-color: 1px black solid;
+}
+.cardseco {
+  position: relative;
+  height: auto;
+  width: 22em;
+}
+.cardlink {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.cardlink:hover {
+  text-decoration: none;
+}
+.grid-container-economy {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container-mini {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px;
+  float: left;
+  padding: 10px;
+}
+.container {
+  padding: 5px;
+}
+
+.cardtitle {
+  background-color: #8aa7dc;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, auto);
+  }
+  .grid-container-economy {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+.breadcrumb {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.card-header {
+  background-color: rgba(138, 167, 220, 0.6);
+}

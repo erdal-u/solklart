@@ -1,0 +1,21 @@
+.it-container {
+  border-color: 2px black;
+  background-color: #93c24f;
+  height: 600px;
+  margin-top: 20px;
+  box-shadow: 1px 2px 10px green;
+}
+
+.grid-container-it {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding: 10px;
+  grid-gap: 50px;
+}
+
+.cards-it {
+  position: relative;
+  height: 30em;
+  width: 30em;
+}

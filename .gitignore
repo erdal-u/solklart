@@ -1,0 +1,6 @@
+.env
+node_modules
+
+soltak.tar
+/SolklartAPI/.vs/SolklartAPI/v16
+/.vs
