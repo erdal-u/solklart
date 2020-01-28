@@ -37,7 +37,7 @@ export default function Order() {
   return (
     <>
       <Breadcrumb className="breadcrumb">
-        <Breadcrumb.Item href="/">Hem</Breadcrumb.Item>
+        <Breadcrumb.Item href="/Solklart">Hem</Breadcrumb.Item>
         <Breadcrumb.Item href="/it">IT-support</Breadcrumb.Item>
         <Breadcrumb.Item active>Beställning</Breadcrumb.Item>
       </Breadcrumb>

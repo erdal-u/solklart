@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/96851005-771d-466f-9a97-37afe74af29e/resourceGroups/SolklartFront-dev-rg/providers/Microsoft.Web/sites/Solklartreactapp",
+    "appService.deploySubpath": ""
+}

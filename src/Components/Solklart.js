@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron } from "../Components/Jumbotron";
 
-export const Home = () => (
+export const Solklart = () => (
   <div>
     <Jumbotron />;
   </div>
