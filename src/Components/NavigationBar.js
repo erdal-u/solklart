@@ -40,7 +40,7 @@ export const NavigationBar = () => (
             </Button>
           </Nav.Item>
           <Nav.Item>
-            <Button href="solklart/#/mycases" className="button">
+            <Button href="/#/mycases" className="button">
               Mina Ärenden
             </Button>
           </Nav.Item>
