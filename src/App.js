@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import { Economy } from "./Components/Economy";
 import { IT } from "./Components/IT/IT";
 import { Salary } from "./Components/Salary/Salary";
@@ -25,7 +25,7 @@ function App() {
   return (
     <div>
       <React.Fragment>
-        <Router history={history}>
+        <HashRouter history={history}>
           <NavigationBar />
           <Layout>
             <Switch>
