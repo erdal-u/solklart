@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/solklart/static/css/main.b1ece8eb.chunk.css",
-    "main.js": "/solklart/static/js/main.8fd5dba9.chunk.js",
-    "main.js.map": "/solklart/static/js/main.8fd5dba9.chunk.js.map",
+    "main.js": "/solklart/static/js/main.44998996.chunk.js",
+    "main.js.map": "/solklart/static/js/main.44998996.chunk.js.map",
     "runtime-main.js": "/solklart/static/js/runtime-main.2b7250a0.js",
     "runtime-main.js.map": "/solklart/static/js/runtime-main.2b7250a0.js.map",
-    "static/js/2.9079409e.chunk.js": "/solklart/static/js/2.9079409e.chunk.js",
-    "static/js/2.9079409e.chunk.js.map": "/solklart/static/js/2.9079409e.chunk.js.map",
+    "static/js/2.f4f715c6.chunk.js": "/solklart/static/js/2.f4f715c6.chunk.js",
+    "static/js/2.f4f715c6.chunk.js.map": "/solklart/static/js/2.f4f715c6.chunk.js.map",
     "index.html": "/solklart/index.html",
-    "precache-manifest.82d7c9bbdeb2ce0466cd97fa4a650eb4.js": "/solklart/precache-manifest.82d7c9bbdeb2ce0466cd97fa4a650eb4.js",
+    "precache-manifest.432ff7c7d288a75fd7762935d283fd98.js": "/solklart/precache-manifest.432ff7c7d288a75fd7762935d283fd98.js",
     "service-worker.js": "/solklart/service-worker.js",
     "static/css/main.b1ece8eb.chunk.css.map": "/solklart/static/css/main.b1ece8eb.chunk.css.map",
-    "static/js/2.9079409e.chunk.js.LICENSE": "/solklart/static/js/2.9079409e.chunk.js.LICENSE",
+    "static/js/2.f4f715c6.chunk.js.LICENSE": "/solklart/static/js/2.f4f715c6.chunk.js.LICENSE",
     "static/media/Header.css": "/solklart/static/media/0.ba61dd62.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2b7250a0.js",
-    "static/js/2.9079409e.chunk.js",
+    "static/js/2.f4f715c6.chunk.js",
     "static/css/main.b1ece8eb.chunk.css",
-    "static/js/main.8fd5dba9.chunk.js"
+    "static/js/main.44998996.chunk.js"
   ]
 }
