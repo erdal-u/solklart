@@ -28,21 +28,23 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar className="navline" expand="lg">
-      <Navbar.Brand href="/solklart">
+      <Navbar.Brand href="/Solklart">
         <img src="solklart.ico" height="60" width="100" alt="Solklart"></img>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Item>
-            <Button href="/solklart" className="button">
+            <Button href="/Solklart" className="button">
               Hem
             </Button>
           </Nav.Item>
           <Nav.Item>
-            <Button href="/mycases" className="button">
-              Mina Ärenden
-            </Button>
+            <Link>
+              <Button href="/mycases" className="button">
+                Mina Ärenden
+              </Button>
+            </Link>
           </Nav.Item>
 
           <Nav.Item>
