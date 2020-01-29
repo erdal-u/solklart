@@ -54,18 +54,24 @@ export const NavigationBar = () => (
           <Nav.Item>
             <DropdownButton className="navitem" title="Meny">
               <TreeView>
-                <TreeItem href="/salary" nodeId="1" label="Lön">
-                  <TreeItem href="/absence" nodeId="2" label="Frånvaro" />
+                <TreeItem to="/salary" nodeId="1" label="Lön">
+                  <Link to="/absence">
+                    <TreeItem nodeId="2" label="Frånvaro" />
+                  </Link>
                   <Link to="/missonfee">
                     <TreeItem nodeId="3" label="Arvode/Uppdrag" />
                   </Link>
-                  <TreeItem href="/certoficate" nodeId="4" label="Intyg" />
+
+                  <TreeItem href="/certificate" nodeId="4" label="Intyg">
+                    <TreeItem nodeId="8" label="test" />
+                  </TreeItem>
                 </TreeItem>
                 <TreeItem nodeId="5" label="IT">
+                  <TreeItem nodeId="6" label="test" />
+                  <TreeItem nodeId="6" label="test" />
                   <TreeItem nodeId="6" label="test">
                     <TreeItem nodeId="7" label="test">
                       <TreeItem nodeId="8" label="test" />
-                      <TreeItem nodeId="9" label="test" />
                     </TreeItem>
                   </TreeItem>
                 </TreeItem>
