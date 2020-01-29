@@ -29,12 +29,12 @@ function App() {
           <NavigationBar />
           <Layout>
             <Switch>
-              <Route exact={true} path="/solklart" component={Solklart} />
+              <Route path="/solklart" component={Solklart} />
               <Route path="/economy" component={Economy} />
               <Route path="/it" component={IT} />
               <Route path="/salary" component={Salary} />
-              <Route exact={true} path="/mycases" component={Mycases} />
-              <Route exact={true} path="/blanketter" component={Blanketter} />
+              <Route path="/mycases" component={Mycases} />
+              <Route path="/blanketter" component={Blanketter} />
               <Route path="/case" component={Case} />
               <Route path="/absence" component={Absence} />
               <Route path="/missonfee" component={Missonfee} />
