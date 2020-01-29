@@ -5,7 +5,7 @@ import "./IT.css";
 export const IT = () => (
   <Container className="it-container">
     <Breadcrumb className="breadcrumb">
-      <Breadcrumb.Item href="/">Hem</Breadcrumb.Item>
+      <Breadcrumb.Item href="/Solklart">Hem</Breadcrumb.Item>
       <Breadcrumb.Item active>IT-support</Breadcrumb.Item>
     </Breadcrumb>
     <div className="grid-container-it">
@@ -16,7 +16,7 @@ export const IT = () => (
         <Card.Body>
           <Card.Text>Har du fel på något.. felanmälan</Card.Text>
           <Button
-            href="/SupportIT"
+            href="/supportIT"
             className="cardlink"
             variant="outline-primary"
           >
@@ -30,7 +30,7 @@ export const IT = () => (
         </Card.Header>
         <Card.Body>
           <Card.Text>betäll it varor</Card.Text>
-          <Button href="/Order" className="cardlink" variant="outline-primary">
+          <Button href="/order" className="cardlink" variant="outline-primary">
             Gå till ärende
           </Button>
         </Card.Body>

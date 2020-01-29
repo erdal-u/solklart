@@ -5,7 +5,7 @@ import "../../App.css";
 export const Salary = () => (
   <Container>
     <Breadcrumb className="breadcrumb">
-      <Breadcrumb.Item href="/solklart">Hem</Breadcrumb.Item>
+      <Breadcrumb.Item href="/Solklart">Hem</Breadcrumb.Item>
       <Breadcrumb.Item active>Lön</Breadcrumb.Item>
     </Breadcrumb>
     <div className="grid-container-economy">
