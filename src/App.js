@@ -29,6 +29,7 @@ function App() {
           <NavigationBar />
           <Layout>
             <Switch>
+              <Route exact path="/" component={Solklart} />
               <Route path="/solklart" component={Solklart} />
               <Route path="/economy" component={Economy} />
               <Route path="/it" component={IT} />
