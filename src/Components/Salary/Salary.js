@@ -5,7 +5,7 @@ import "../../App.css";
 export const Salary = () => (
   <Container>
     <Breadcrumb className="breadcrumb">
-      <Breadcrumb.Item href="solklart/#/">Hem</Breadcrumb.Item>
+      <Breadcrumb.Item href="/#/">Hem</Breadcrumb.Item>
       <Breadcrumb.Item active>Lön</Breadcrumb.Item>
     </Breadcrumb>
     <div className="grid-container-economy">
@@ -16,7 +16,7 @@ export const Salary = () => (
         <Card.Body>
           <Card.Text>intyg på arbetsplats.</Card.Text>
           <Button
-            href="/#/case"
+            href="/solklart/#/case"
             className="cardlink"
             variant="btn btn-secondary btn-sm"
           >
@@ -36,7 +36,7 @@ export const Salary = () => (
             och lägger in eventuella avvikelser.
           </Card.Text>
           <Button
-            href="/absence"
+            href="/solklart/#/absence"
             className="cardlink"
             variant="btn btn-secondary btn-sm"
           >
@@ -52,7 +52,7 @@ export const Salary = () => (
         <Card.Body>
           <Card.Text>text text text</Card.Text>
           <Button
-            href="/missonfee"
+            href="/solklart/#/missonfee"
             className="cardlink"
             variant="btn btn-secondary btn-sm"
           >
@@ -74,7 +74,7 @@ export const Salary = () => (
             och lägger in eventuella avvikelser.
           </Card.Text>
           <Button
-            href="/selfservice"
+            href="/solklart/#/selfservice"
             className="cardlink"
             variant="btn btn-secondary btn-sm"
           >
@@ -94,7 +94,7 @@ export const Salary = () => (
             och lägger in eventuella avvikelser.
           </Card.Text>
           <Button
-            href="/schema"
+            href="/solklart/#/schema"
             className="cardlink"
             variant="btn btn-secondary btn-sm"
           >
@@ -114,7 +114,7 @@ export const Salary = () => (
             och lägger in eventuella avvikelser.
           </Card.Text>
           <Button
-            href="/certificate"
+            href="/solklart/#/certificate"
             className="cardlink"
             variant="outline-primary"
           >
