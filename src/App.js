@@ -19,7 +19,7 @@ import { Selfservice } from "./Components/Salary/Selfservice";
 import { SupportIT } from "./Components/IT/SupportIT";
 import Order from "./Components/IT/Order";
 import { Solklart } from "./Components/Solklart";
-import history from "./services/history";
+import history from "./Components/history";
 
 function App() {
   return (
