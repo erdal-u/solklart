@@ -10,6 +10,6 @@ export const Blanketter = () => (
       <Breadcrumb.Item active>Blanketter </Breadcrumb.Item>
     </Breadcrumb>
     <h1>här ska alla Blanketter vara...</h1>
-    <h1>här ska alla Blanketter vara...</h1>
+    <h1>här ska alla Blanketter vara.. funka.</h1>
   </div>
 );
