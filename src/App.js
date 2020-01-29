@@ -27,21 +27,23 @@ function App() {
         <Router>
           <NavigationBar />
           <Layout>
-            <Route exact path="/" component={Solklart} />
-            <Route path="/economy" component={Economy} />
-            <Route path="/it" component={IT} />
-            <Route path="/salary" component={Salary} />
-            <Route path="/mycases" component={Mycases} />
-            <Route path="/blanketter" component={Blanketter} />
-            <Route path="/case" component={Case} />
-            <Route path="/absence" component={Absence} />
-            <Route path="/missonfee" component={Missonfee} />
-            <Route path="/selfservice" component={Selfservice} />
-            <Route path="/schema" component={Schema} />
-            <Route path="/certificate" component={Certificate} />
-            <Route path="/supportit" component={SupportIT} />
-            <Route path="/order" component={Order} />
-            <Route component={NoMatch} />
+            <Switch>
+              <Route exact path="/" component={Solklart} />
+              <Route path="/economy" component={Economy} />
+              <Route path="/it" component={IT} />
+              <Route path="/salary" component={Salary} />
+              <Route path="/mycases" component={Mycases} />
+              <Route path="/blanketter" component={Blanketter} />
+              <Route path="/case" component={Case} />
+              <Route path="/absence" component={Absence} />
+              <Route path="/missonfee" component={Missonfee} />
+              <Route path="/selfservice" component={Selfservice} />
+              <Route path="/schema" component={Schema} />
+              <Route path="/certificate" component={Certificate} />
+              <Route path="/supportit" component={SupportIT} />
+              <Route path="/order" component={Order} />
+              <Route component={NoMatch} />
+            </Switch>
           </Layout>
         </Router>
       </React.Fragment>
