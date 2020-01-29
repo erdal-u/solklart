@@ -40,15 +40,13 @@ export const NavigationBar = () => (
             </Button>
           </Nav.Item>
           <Nav.Item>
-            <Link>
-              <Button href="/mycases" className="button">
-                Mina Ärenden
-              </Button>
-            </Link>
+            <Button href="/Solklart#/mycases#/" className="button">
+              Mina Ärenden
+            </Button>
           </Nav.Item>
 
           <Nav.Item>
-            <Button href="/blanketter" className="button">
+            <Button href="/Solklart#//blanketter#/" className="button">
               Blanketter
             </Button>
           </Nav.Item>
