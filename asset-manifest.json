@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/solklart/static/css/main.b1ece8eb.chunk.css",
-    "main.js": "/solklart/static/js/main.9013c2a4.chunk.js",
-    "main.js.map": "/solklart/static/js/main.9013c2a4.chunk.js.map",
+    "main.js": "/solklart/static/js/main.53423e26.chunk.js",
+    "main.js.map": "/solklart/static/js/main.53423e26.chunk.js.map",
     "runtime-main.js": "/solklart/static/js/runtime-main.2b7250a0.js",
     "runtime-main.js.map": "/solklart/static/js/runtime-main.2b7250a0.js.map",
     "static/js/2.9614a503.chunk.js": "/solklart/static/js/2.9614a503.chunk.js",
     "static/js/2.9614a503.chunk.js.map": "/solklart/static/js/2.9614a503.chunk.js.map",
     "index.html": "/solklart/index.html",
-    "precache-manifest.98139739e5cc4e858209b5be8223e774.js": "/solklart/precache-manifest.98139739e5cc4e858209b5be8223e774.js",
+    "precache-manifest.ef0eef37c7a911b306825eb5fdff4d3d.js": "/solklart/precache-manifest.ef0eef37c7a911b306825eb5fdff4d3d.js",
     "service-worker.js": "/solklart/service-worker.js",
     "static/css/main.b1ece8eb.chunk.css.map": "/solklart/static/css/main.b1ece8eb.chunk.css.map",
     "static/js/2.9614a503.chunk.js.LICENSE": "/solklart/static/js/2.9614a503.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.2b7250a0.js",
     "static/js/2.9614a503.chunk.js",
     "static/css/main.b1ece8eb.chunk.css",
-    "static/js/main.9013c2a4.chunk.js"
+    "static/js/main.53423e26.chunk.js"
   ]
 }
