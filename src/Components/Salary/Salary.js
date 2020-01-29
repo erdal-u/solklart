@@ -5,7 +5,7 @@ import "../../App.css";
 export const Salary = () => (
   <Container>
     <Breadcrumb className="breadcrumb">
-      <Breadcrumb.Item href="/Solklart">Hem</Breadcrumb.Item>
+      <Breadcrumb.Item href="solklart/#/">Hem</Breadcrumb.Item>
       <Breadcrumb.Item active>Lön</Breadcrumb.Item>
     </Breadcrumb>
     <div className="grid-container-economy">
@@ -16,7 +16,7 @@ export const Salary = () => (
         <Card.Body>
           <Card.Text>intyg på arbetsplats.</Card.Text>
           <Button
-            href="/case"
+            href="/#/case"
             className="cardlink"
             variant="btn btn-secondary btn-sm"
           >
