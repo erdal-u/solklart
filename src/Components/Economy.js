@@ -5,7 +5,7 @@ import "../App.css";
 export const Economy = () => (
   <Container>
     <Breadcrumb>
-      <Breadcrumb.Item href="/Solklart">Hem</Breadcrumb.Item>
+      <Breadcrumb.Item href="/">Hem</Breadcrumb.Item>
       <Breadcrumb.Item active>IT</Breadcrumb.Item>
     </Breadcrumb>
     <div className="grid-container-economy">

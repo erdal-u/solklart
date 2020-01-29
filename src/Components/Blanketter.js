@@ -5,7 +5,7 @@ import { Breadcrumb } from "react-bootstrap";
 export const Blanketter = () => (
   <div>
     <Breadcrumb className="breadcrumb">
-      <Breadcrumb.Item href="/Solklart">Hem</Breadcrumb.Item>
+      <Breadcrumb.Item href="/">Hem</Breadcrumb.Item>
 
       <Breadcrumb.Item active>Blanketter </Breadcrumb.Item>
     </Breadcrumb>

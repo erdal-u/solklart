@@ -5,7 +5,7 @@ import "./IT.css";
 export const IT = () => (
   <Container className="it-container">
     <Breadcrumb className="breadcrumb">
-      <Breadcrumb.Item href="/solklart">Hem</Breadcrumb.Item>
+      <Breadcrumb.Item href="/">Hem</Breadcrumb.Item>
       <Breadcrumb.Item active>IT-support</Breadcrumb.Item>
     </Breadcrumb>
     <div className="grid-container-it">

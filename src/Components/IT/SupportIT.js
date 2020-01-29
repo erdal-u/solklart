@@ -5,7 +5,7 @@ import "../../App.css";
 export const SupportIT = () => (
   <Container>
     <Breadcrumb className="breadcrumb">
-      <Breadcrumb.Item href="/Solklart">Hem</Breadcrumb.Item>
+      <Breadcrumb.Item href="/">Hem</Breadcrumb.Item>
       <Breadcrumb.Item href="IT">IT-support</Breadcrumb.Item>
       <Breadcrumb.Item active>Felanmälan</Breadcrumb.Item>
     </Breadcrumb>
