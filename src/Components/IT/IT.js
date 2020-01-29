@@ -16,7 +16,7 @@ export const IT = () => (
         <Card.Body>
           <Card.Text>Har du fel på något.. felanmälan</Card.Text>
           <Button
-            href="/supportIT"
+            href="/SupportIT"
             className="cardlink"
             variant="outline-primary"
           >
