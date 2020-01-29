@@ -46,7 +46,7 @@ export const NavigationBar = () => (
           </Nav.Item>
 
           <Nav.Item>
-            <Button href="/solklart/#/blanketter" className="button">
+            <Button href="/#/blanketter" className="button">
               Blanketter
             </Button>
           </Nav.Item>
