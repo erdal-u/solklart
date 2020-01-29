@@ -4,7 +4,6 @@ import { Route } from "react-router-dom";
 import { Economy } from "../Economy";
 import { IT } from "../IT/IT";
 import { Salary } from "../Salary/Salary";
-import { NoMatch } from "../NoMatch";
 
 import { Layout } from "../Layout";
 import { NavigationBar } from "../NavigationBar";
@@ -23,23 +22,26 @@ import { Solklart } from "../Solklart";
 function Header() {
   return (
     <div>
-      <NavigationBar />
-      <>
-        <Route exact path="/" component={Solklart} />
-        <Route path="/economy" component={Economy} />
-        <Route path="/it" component={IT} />
-        <Route path="/salary" component={Salary} />
-        <Route path="/mycases" component={Mycases} />
-        <Route path="/solkart/blanketter" component={Blanketter} />
-        <Route path="/case" component={Case} />
-        <Route path="/absence" component={Absence} />
-        <Route path="/missonfee" component={Missonfee} />
-        <Route path="/selfservice" component={Selfservice} />
-        <Route path="/schema" component={Schema} />
-        <Route path="/certificate" component={Certificate} />
-        <Route path="/supportit" component={SupportIT} />
-        <Route path="/order" component={Order} />
-      </>
+      <Layout>
+        <NavigationBar />
+        <>
+          <Route exact path="/" component={Solklart} />
+          <Route path="/economy" component={Economy} />
+          <Route path="/it" component={IT} />
+          <Route path="/salary" component={Salary} />
+          <Route path="/mycases" component={Mycases} />
+          <Route path="/solkart/blanketter" component={Blanketter} />
+          <Route path="/case" component={Case} />
+          <Route path="/absence" component={Absence} />
+          <Route path="/missonfee" component={Missonfee} />
+          <Route path="/selfservice" component={Selfservice} />
+          <Route path="/schema" component={Schema} />
+          <Route path="/certificate" component={Certificate} />
+          <Route path="/supportit" component={SupportIT} />
+          <Route path="/blanketter" component={Blanketter} />
+          <Route path="/order" component={Order} />
+        </>
+      </Layout>
     </div>
   );
 }
