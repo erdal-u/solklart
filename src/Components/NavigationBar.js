@@ -43,14 +43,17 @@ export const NavigationBar = () => (
             <Button href="/solklart/#/mycases" className="button">
               Mina Ärenden
             </Button>
+          </Nav.Item>{" "}
+          <Nav.Item>
+            <Button href="/solklart/#/mycases" className="button">
+              Mina Ärenden
+            </Button>
           </Nav.Item>
-
           <Nav.Item>
             <Button href="/solklart/#/blanketter" className="button">
               Blanketter
             </Button>
           </Nav.Item>
-
           <Nav.Item>
             <DropdownButton className="navitem" title="Meny">
               <TreeView>
