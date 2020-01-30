@@ -5,7 +5,7 @@ import { Card, Container, Breadcrumb, Button } from "react-bootstrap";
 export const Absence = () => (
   <Container>
     <Breadcrumb className="breadcrumb">
-      <Breadcrumb.Item href="/">Hem</Breadcrumb.Item>
+      <Breadcrumb.Item href="solklart/#/">Hem</Breadcrumb.Item>
       <Breadcrumb.Item href="/salary">Lön</Breadcrumb.Item>
       <Breadcrumb.Item active>Frånvaro </Breadcrumb.Item>
     </Breadcrumb>
@@ -21,7 +21,7 @@ export const Absence = () => (
             biltong, pork chop tri-tip rump boudin turkey.
           </Card.Text>
           <Button
-            href="/case"
+            href="/solklart/#/case"
             className="cardlink"
             variant="btn btn-secondary btn-sm"
           >
