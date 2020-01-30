@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45a6d0912c520ced54e40080baeef972",
+    "revision": "ddbbf637ebb5c78e4c3e42ddf88da723",
     "url": "/solklart/index.html"
   },
   {
-    "revision": "b0476bbd13193e1a20be",
+    "revision": "e41d56ae2121894f531d",
     "url": "/solklart/static/css/main.b1ece8eb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/solklart/static/js/2.c7a9f1b6.chunk.js.LICENSE"
   },
   {
-    "revision": "b0476bbd13193e1a20be",
-    "url": "/solklart/static/js/main.d2ac87f8.chunk.js"
+    "revision": "e41d56ae2121894f531d",
+    "url": "/solklart/static/js/main.93c45fe4.chunk.js"
   },
   {
     "revision": "a0e7128757baf5afa33a",
